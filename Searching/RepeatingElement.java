@@ -17,6 +17,7 @@ public class RepeatingElement {
     }
 
     public static int moreEfficientApproach(int[] nums) {
+        // Elements start with 1.
         int slow = nums[0], fast = nums[0];
         do {
             slow = nums[slow];
@@ -28,6 +29,21 @@ public class RepeatingElement {
             fast = nums[fast];
         }
         return slow;
+    }
+
+    public static int finalSOlution(int[] nums) {
+        // Elements start with 0.
+        int slow = nums[0] + 1, fast = nums[0] + 1;
+        do {
+            slow = nums[slow] + 1;
+            fast = nums[nums[fast] + 1] + 1;
+        } while (slow != fast);
+        slow = nums[0] + 1;
+        while (slow != fast) {
+            slow = nums[slow] + 1;
+            fast = nums[fast] + 1;
+        }
+        return slow - 1;
     }
 
     public static void main(String[] args) {
