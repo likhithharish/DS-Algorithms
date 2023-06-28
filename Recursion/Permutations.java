@@ -23,6 +23,6 @@ public class Permutations {
     }
 
     public static void main(String[] args) {
-        permutations("ABC", 0);
+        permutations("ABC", 2);
     }
 }
