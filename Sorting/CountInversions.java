@@ -1,7 +1,5 @@
 package Sorting;
 
-import javax.naming.spi.ResolveResult;
-
 public class CountInversions {
     // Given an array, count the number of inversions in it.
     // A pair (arr[i], arr[j]) forms an inversion when i<j and arr[i] > arr[j]

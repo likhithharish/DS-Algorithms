@@ -1,7 +1,5 @@
 package Sorting;
 
-import java.util.*;
-
 public class IntersectionTwoSortedArr {
     // given two sorted arrays, find the common elements
     public static void intersectionOfArrays(int[] a, int[] b) {
