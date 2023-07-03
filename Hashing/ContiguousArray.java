@@ -27,7 +27,6 @@ public class ContiguousArray {
     }
 
     public static int efficientSolution(int[] nums) {
-        int n = nums.length;
         for (int i = 0; i < nums.length; i++) {
             if (nums[i] == 0) {
                 nums[i] = -1;
