@@ -61,7 +61,6 @@ public class SearchSingleLL {
             n = n.next;
         }
         System.out.println("");
-        StringBuilder res = new StringBuilder();
     }
 
     public static void main(String[] args) {

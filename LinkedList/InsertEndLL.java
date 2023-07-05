@@ -26,9 +26,10 @@ public class InsertEndLL {
 
     public static void printList(Node n) {
         while (n != null) {
-            System.out.print(n.data + " ");
+            System.out.print(n.data + " -> ");
             n = n.next;
         }
+        System.out.println("");
     }
 
     public static void main(String[] args) {
