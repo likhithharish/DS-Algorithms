@@ -1,8 +1,5 @@
 package LinkedList;
 
-import java.util.HashSet;
-import java.util.Iterator;
-
 class Node {
     int data;
     Node next;
